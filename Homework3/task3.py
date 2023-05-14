@@ -2,7 +2,7 @@
 
 
 def even_sum(lst):
-    # Здесь пишем код
+    sum_list = sum(lst[0::2])
     return sum_list
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ

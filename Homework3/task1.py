@@ -2,7 +2,10 @@
 # В исходном списке минимум 2 элемента.
 
 def modification(lst):
-    # Здесь пишем код
+    a = lst.pop(0)
+    b = lst.pop(-1)
+    lst.insert(0, b)
+    lst.append(a)
     return lst
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
